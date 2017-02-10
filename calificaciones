@@ -1,4 +1,9 @@
 ﻿SELECT 
-  * 
+  nota.id, 
+  nota.nombre, 
+  nota.parcial, 
+  nota.final, 
+  nota.mejoramiento, 
+  nota.aprueba
 FROM 
   public.nota;
